@@ -1,0 +1,13 @@
+library/
+local/
+cellar/
+lock/
+python/
+sandbox/
+staging/
+
+# secrets
+.env
+
+# Data
+data/*.csv
