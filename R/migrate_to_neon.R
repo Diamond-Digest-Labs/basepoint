@@ -4,7 +4,7 @@ library(janitor)
 source("R/db_connect.R")
 
 # 1. Read the CSV Skiping the first row which is just category labels 
-raw_csv <- read_csv("data/Thika Rangers Spring 2024 Stats.csv", skip = 1) %>%
+raw_csv <- read_csv("data/raw/Thika Rangers Spring 2024 Stats.csv", skip = 1) %>%
   clean_names() # Makes column names into snake case
 
 # 2. Connect to Neon
