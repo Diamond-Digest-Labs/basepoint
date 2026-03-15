@@ -11,3 +11,15 @@ staging/
 
 # Data
 data/*.csv
+
+# Targets cache
+_targets/
+_targets.noindex/
+
+
+
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata

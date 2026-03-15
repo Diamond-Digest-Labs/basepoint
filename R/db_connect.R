@@ -1,7 +1,7 @@
 library(DBI)
 library(RPostgres)
 
-get_neon_conn <- function() {
+get_neon_connection <- function() {
   if (file.exists(".env")) {
     lines <- readLines(".env", warn = FALSE)
     for (line in lines) {
