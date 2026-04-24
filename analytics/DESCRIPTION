@@ -1,0 +1,19 @@
+Package: basepoint
+Type: Project
+Title: Basepoint: Data-Driven Meritocracy for Kenyan Baseball
+Version: 1.0.0
+Author: Keith Karani <wachirakeith@gmail.com.com>
+Description: A cloud-native analytical pipeline for democratizing 
+    baseball performance data in Nairobi. Built with Go and R 
+Depends:
+    R (>= 4.5.2)
+Imports:
+    dplyr,
+    janitor,
+    DBI,
+    RPostgres,
+    ggplot2,
+    renv
+License: MIT
+Encoding: UTF-8
+LazyData: true
